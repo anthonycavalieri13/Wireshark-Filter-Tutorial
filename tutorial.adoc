@@ -31,16 +31,16 @@ TCP/UDP Contains
 The 'contains' filter is a very simple, yet effective filter, which allows you to search for any plaintext word in a TCP or UDP steam in Wireshark.
 For example, to search for web traffic related to Twitter, you would do the following:
 
-. Step 1. In the 'Add a Display Filter' search bar, type in 'tcp contains twitter'.
+Step 1. In the 'Add a Display Filter' search bar, type in 'tcp contains twitter'.
 				TCP can be replaced with UDP, and twitter can be replaced with anything that you'd like to filter for.
 
 image::Add Display Filter.png[]
 					
-. Step 2. Hit 'Enter' or the arrow button to the right of the search bar to apply the filter.
+Step 2. Hit 'Enter' or the arrow button to the right of the search bar to apply the filter.
 
 image::TCP contains twitter.png[]
 
-. Step 3. View the results of the filter. 
+Step 3. View the results of the filter. 
 			If nothing shows up, navigate to the website, and browse for a small amount of time. 
 
 image::TCP contains twitter Results.png[]
@@ -55,15 +55,15 @@ image::twitter.png[]
 This filter will discard arp, icmp, and dns requests sent on the network. These results are usually the bulk of your results, but are not always helpful, and can just take up space.
 By applying this filter you will be able to view more important traffic, without having to dig through all of these requests.
 
-. Step 1. In the 'Add a Display Filter' search bar, type in '!(arp or icmp or dns)'.
+Step 1. In the 'Add a Display Filter' search bar, type in '!(arp or icmp or dns)'.
 
 image::Add Display Filter.png[] 
 
-. Step 2. Hit 'Enter' or the arrow button to the right of the search bar to apply the filter.
+Step 2. Hit 'Enter' or the arrow button to the right of the search bar to apply the filter.
 
 image::arp, icmp, dns.png[]
 
-. Step 3. View the results of the filter. 
+Step 3. View the results of the filter. 
 			You will likely still have quite a few results, but will not see any of the specified protocols in the Protocols column in the results pane.
 			You can also add more exclusions by adding more to the protocols in the parenthesis.
 
@@ -74,15 +74,15 @@ ip.addr ==
 
 This filter allows you to view traffic for a specific IP address, which can help immensely when trying to view specific traffic on the network. 
 
-. Step 1. In the 'Add a Display Filter' search bar, type in 'ip.addr == x.x.x.x', replacing the x's with the desired IP address.
+Step 1. In the 'Add a Display Filter' search bar, type in 'ip.addr == x.x.x.x', replacing the x's with the desired IP address.
 
 image::Add Display Filter.png[] 
 
-. Step 2. Hit 'Enter' or the arrow button to the right of the search bar to apply the filter.
+Step 2. Hit 'Enter' or the arrow button to the right of the search bar to apply the filter.
 
 image::ip addr.png[]
 
-. Step 3. View the results of the filter. 
+Step 3. View the results of the filter. 
 
 image::ip addr results.png[]
 
@@ -105,9 +105,9 @@ image::tcp stream.png[]
 
 image::udp stream.png[] 
 
-. Step 2. Left click on the TCP/UDP stream option.
+Step 2. Left click on the TCP/UDP stream option.
 
-. Step 3. View the results of the TCP/UDP conversation.  
+Step 3. View the results of the TCP/UDP conversation.  
 
 image::tcp stream results 2.png[] 
 
