@@ -28,7 +28,7 @@ Wireshark can be used on almost any device, and can be used with either a GUI or
 == Instructions
 TCP/UDP Contains
 ^^^^^^^^^^^^^^^^
-The 'contains' filter is a very simple, yet effective filter, which allows you to search for any plaintext word in a TCP or UDP steam in Wireshark.
+The 'contains' filter is a very simple, yet effective filter, which allows you to search for any plaintext word in a TCP or UDP stream in Wireshark.
 For example, to search for web traffic related to Twitter, you would do the following:
 
 Step 1. In the 'Add a Display Filter' search bar, type in 'tcp contains twitter'.
